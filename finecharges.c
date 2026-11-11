@@ -29,7 +29,7 @@ int main(){
    if (daysOverdue <=7){
         fineRate = 20;
    }
-     else if (daysOverdue>=8 && daysOverdue<=14){
+     else if (daysOverdue <=14){
          fineRate = 50;
      }
      else {
